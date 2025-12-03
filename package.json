@@ -1,0 +1,31 @@
+{
+  "name": "pasteleria-real",
+  "version": "1.0.0",
+  "description": "Sistema completo de gestión para Pastelería Real - Backend API + Frontend Web",
+  "scripts": {
+    "start": "bash start-all.sh",
+    "start:api": "bash start-api.sh",
+    "start:web": "bash start-web.sh",
+    "install:all": "cd api && ./mvnw clean install -DskipTests && cd ../web && npm install",
+    "build:api": "cd api && ./mvnw clean package -DskipTests",
+    "build:web": "cd web && npm run build",
+    "build:all": "npm run build:api && npm run build:web",
+    "test:api": "cd api && ./mvnw test",
+    "test:web": "cd web && npm run test",
+    "clean": "cd api && ./mvnw clean && cd ../web && rm -rf node_modules dist"
+  },
+  "keywords": [
+    "pasteleria",
+    "spring-boot",
+    "react",
+    "typescript",
+    "api-rest",
+    "jwt"
+  ],
+  "author": "Estudiante DUOC",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Liaaaan12/Pasteleria-real-.git"
+  }
+}

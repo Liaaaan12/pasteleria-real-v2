@@ -1,0 +1,32 @@
+# Logs
+*.log
+/tmp/
+
+# Backend (API)
+api/target/
+api/.mvn/wrapper/maven-wrapper.jar
+api/.idea/
+api/*.iml
+
+# Frontend (Web)
+web/node_modules/
+web/dist/
+web/coverage/
+web/.vite/
+web/.env.local
+web/.env.production
+
+# IDEs
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Temporal
+*.tmp
+*.bak
