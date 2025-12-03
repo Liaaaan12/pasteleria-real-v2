@@ -1,4 +1,4 @@
-# 🎂 Pastelería Real - Sistema Completo (Optimizado para Windows)
+# 🎂 Pastelería Real - Sistema Completo
 
 Sistema de gestión completo para Pastelería Real, que incluye Backend API (Spring Boot) y Frontend Web (React + TypeScript) en un solo repositorio.
 
